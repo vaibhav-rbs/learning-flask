@@ -1,0 +1,10 @@
+#!/home/ubuntu/microblog/flask/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'localtunnel==0.6.1','console_scripts','localtunnel-beta'
+__requires__ = 'localtunnel==0.6.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('localtunnel==0.6.1', 'console_scripts', 'localtunnel-beta')()
+    )
